@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ssm-cooldown-hud",
+  "version": "${version}",
+  "name": "SSM Cooldown HUD",
+  "description": "Client-side HUD overlay that always shows Super Smash Mobs kit ability cooldowns, regardless of which item you're holding.",
+  "authors": ["Marc"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ssm-cooldown-hud/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.riftwatch.ssmcooldownhud.SSMCooldownHudClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "26.2",
+    "fabric-api": "*"
+  }
+}
